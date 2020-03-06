@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({path:__dirname+'/.env'})
 const faunadb = require('faunadb')
 const Twitter = require('twitter')
 const GraphemeSplitter = require('grapheme-splitter')
